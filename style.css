@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+body{
+    background-color: blueviolet;
+}
+.container {
+    width: 45%;
+    height: 100%;
+    margin: auto;
+}
+/* NAVBAR */
+.navbar-container{
+    position: fixed;
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.nav-content{
+    width: 30%;
+    height: 100%;
+}
+.nav-content ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style-type:none;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+.nav-content ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    
+}
+.nav-content ul li:hover{
+    background-color: gray;
+}
+.nav-logo{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.nav-sreach:hover{
+    background-color: red;
+}
+
+/* NAVBAR */
+/* SLIDE */
+.slide-container{
+    padding-top: 5vh;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.slide-img{
+    width: 100%;
+    height: 100%;
+}
+.slide-img img{
+    width: 100%;
+    height: 100%;
+}
+.slide-img .slides{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.img-content{
+    position: absolute;
+    bottom: 102px;
+    color: white;
+    text-align: center;
+    left: 42%;
+}
+/* SLIDE */
+
+/* ABOUT US */
+.about_us{
+    width: 100%;
+    height: 65vh;
+    background-color: white;
+    margin-top: 80px;
+    background-image: url(6055805.jpg);
+    background-size: cover;
+}
+
+
+.about-us-title{
+    text-align: center;
+    color:purple;
+    font-weight: bold;
+    
+}
+.about-us-sub-title{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: aquamarine;
+}
+.about-us-dis{
+    text-align: justify;
+    color:red;
+    font-weight: bold;
+}
+.about-us-box{
+    margin-top: 40px;
+    width: 100%;
+    
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.about-us-item{
+    width: 25%;
+    height: 100%;
+    
+    
+}
+/* ABOUT US */
+
+/* TOUR DATES  */
+.tour-dates{
+    width: 100%;
+    height: 80vh;
+    background-color:blueviolet;
+    margin-top: 80px;
+}
+.tour-dates-container{
+    
+}
+.tour-dates-title{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+.tour-dates-sub-title{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+
+}
+.tour-dates-month{
+    width: 100%;
+    height: 15%;
+    background-color: white ;
+}
+.month{
+    width: 100%;
+    height: calc(100% / 3);
+    border-bottom: 1px solid white;
+    color:black;
+    font-size: large;
+    
+
+    padding: 8px 16px;
+
+}
+.month span{
+    margin-left: 10px;
+    
+    padding: 5px 8px;
+    color:red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.tour-dates-box{
+    margin-top: 40px;
+    width: 100%;
+    background-color:blueviolet;
+    height: 55%;
+    display: flex;
+    justify-content: space-around;
+}
+.tour-dates-item{
+    width: 30%;
+    height: 100%;
+    
+}
+.tour-dates-img{
+    width: 100%;
+    height: 100%;
+    
+}
+/* TOUR DATES  */
+/* CONTACT */
+.contact{
+    width: 100%;
+    height: 40vh;
+}
+.contact-title{
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+    font-weight: bold;
+}
+.contact-sub-title{
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    color: white
+
+}
+.contact-content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.contact-content-left{
+    width: 50%;
+    height: 100%;
+    background-color:purple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: larger;
+}
+.contact-content-right{
+    width: 50%;
+    height: 100%;
+    background-color:purple
+}
+.contact-content-right form{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.input-fisrt {
+    width: 100%;
+    height: 25%;
+}
+.input-fisrt input{
+    width: 49%;
+    padding: 5px 10px;
+}
+.input-second{
+    width: 100%;
+    padding: 5px 10px;
+}
+.btn-send{
+    padding: 8px 16px;
+    float: right;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.btn-send:hover{
+    background-color: rgb(190, 190, 190);
+    color: black;
+}
+/* CONTACT */
+
+/* MAP */
+.map{
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    background-image: url(map.jpg);
+    background-size: cover;
+}
+.map-container{
+    width: 80%;
+    height: 100%;
+    color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.map-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* MAP */
+
+
+.img-test{
+    width: 300px !important;
+    height: 300px !important;
+    position: absolute;
+    animation: example 5s infinite;
+    animation-duration: 4s;
+}
+@keyframes example {
+    20%   { left:0px; top:0px;}
+    40%  { left:150px; top:150px;}
+    60%   { left:20px; top:0px;}
+    80%  { left:0px; top:20px;}
+    100%   { left:0px; top:0px;}
+  }
